@@ -50,17 +50,6 @@ describe('Teste o componente <Pokedex.js />', () => {
     expect(img).toHaveLength(1);
   });
 
-  //   test('Teste se a Pokédex tem os botões de filtro.', () => {
-  //     render(
-  //       <MemoryRouter>
-  //         <App />
-  //       </MemoryRouter>,
-  //     );
-  //     const ALL_BUTTONS = 9;
-  //     const button = screen.getAllByRole('button');
-  //     expect(button).toHaveLength(ALL_BUTTONS);
-  //   });
-
   test('Teste se a Pokédex tem os botões de filtro.', () => {
     render(
       <MemoryRouter>
