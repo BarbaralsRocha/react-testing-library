@@ -7,7 +7,7 @@ import pokemons from '../data';
 import { Pokemon } from '../components';
 import renderWithRouter from '../renderWithRouter';
 
-const { name, type, weight, averageWeight: { value, measurementUnit } } = pokemons[0];
+const { name, type, averageWeight: { value, measurementUnit } } = pokemons[0];
 
 describe('Teste a página contém as informações', () => {
   test('Teste se é renderizado um card com as informações de determinado pokémon', () => {
